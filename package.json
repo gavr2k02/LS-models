@@ -1,0 +1,23 @@
+{
+  "name": "learning-service-models",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gavr2k02/learning-service-models.git",
+  "author": "gavr2k02 <gavrilin2k02@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint --cache --fix --ext .ts,.tsx src",
+    "publish": ""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.0",
+    "@typescript-eslint/parser": "^4.29.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
+  }
+}
