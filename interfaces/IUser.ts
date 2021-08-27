@@ -10,6 +10,5 @@ export interface IUser {
 
 export interface IFIelds {
   email?: string;
-  password?: string;
   phone?: string;
 }
