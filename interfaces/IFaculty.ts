@@ -1,6 +1,5 @@
-export interface IFaculty {
-  id?: string;
-  name: string;
-  color: string;
+import { IBaseCard } from './IBaseCard';
+
+export interface IFaculty extends IBaseCard {
   groupIds?: string[];
 }
