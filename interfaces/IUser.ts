@@ -1,11 +1,11 @@
 import { Role } from '../enums/Role';
 
 export interface IUser {
-  id: string;
+  id?: string;
   name: string;
   cid: string;
   role: Role;
-  fields: IFIelds;
+  fields?: IFIelds;
 }
 
 export interface IFIelds {
