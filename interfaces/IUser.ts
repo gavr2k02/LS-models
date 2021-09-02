@@ -1,8 +1,7 @@
 import { Role } from '../enums/Role';
+import { IBaseCard } from './IBaseCard';
 
-export interface IUser {
-  id?: string;
-  name: string;
+export interface IUser extends IBaseCard {
   cid: string;
   role: Role;
   fields?: IFIelds;
