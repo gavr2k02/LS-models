@@ -1,3 +1,4 @@
+import { IGroup } from './IGroup';
 import { IUser } from './IUser';
 
 export interface IStudent extends IUser {
@@ -5,4 +6,5 @@ export interface IStudent extends IUser {
   lastName?: string;
 
   groupId: string;
+  group?: IGroup;
 }
