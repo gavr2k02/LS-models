@@ -1,6 +1,6 @@
 import { IUser } from './IUser';
 
-export interface IStudent extends IUser {
+export interface ITeacher extends IUser {
   firstName?: string;
   lastName?: string;
 
