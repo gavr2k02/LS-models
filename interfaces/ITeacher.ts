@@ -6,4 +6,5 @@ export interface ITeacher extends IUser {
 
   avatar?: string;
   facultyIds?: string[];
+  courseIds?: string[];
 }
