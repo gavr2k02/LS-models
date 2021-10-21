@@ -1,8 +1,8 @@
 import { IBaseCard } from './IBaseCard';
-import { IFaculty } from './IFaculty';
+import { ICourse } from './ICourse';
 
 export interface IPreset extends IBaseCard {
-  facultyId: string;
-  faculty?: IFaculty;
+  courseId: string;
+  course?: ICourse;
   cardsIds: string[];
 }
