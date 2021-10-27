@@ -4,7 +4,7 @@ export interface IDayLesson {
   id?: string;
   facultyId: string;
   groupId: string;
-  day: string;
+  date: number;
   lessons?: ILesson[];
   deleted?: boolean;
 }

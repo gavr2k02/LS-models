@@ -1,5 +1,6 @@
 export interface ILesson {
-  startTime: Date;
+  startTime: number;
+  endTime: number;
   courseId: string;
   teacherId: string;
 }
