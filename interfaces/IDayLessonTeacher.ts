@@ -1,9 +1,9 @@
 import { ILesson } from './ILesson';
+import { ILessonTeacher } from './ILessonTeacher';
 
-export interface IDayLesson {
+export interface IDayLessonTeacher {
   id?: string;
-  facultyId: string;
   date: string;
   dateMS?: number;
-  lessons?: ILesson[];
+  lessons?: ILessonTeacher[];
 }

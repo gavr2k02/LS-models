@@ -1,8 +1,8 @@
-export interface ILesson {
+export interface ILessonTeacher {
   startTime: string;
   startTimeMS?: number;
   courseId: string;
   courseName: string;
   groupId: string;
-  group: string;
+  groupName: string;
 }
