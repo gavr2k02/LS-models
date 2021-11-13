@@ -1,4 +1,5 @@
 export interface ILessonTeacher {
+  id: string;
   startTime: string;
   fullTime: string;
   startTimeMS?: number;
