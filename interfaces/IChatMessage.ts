@@ -4,4 +4,5 @@ export interface IChatMessage {
   userId: string;
   message: string;
   date: number;
+  deleted?: boolean;
 }
